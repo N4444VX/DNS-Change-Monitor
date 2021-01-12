@@ -1,6 +1,12 @@
 # DNS-Change-Monitor
 Monitor a list of domain names for IP changes and email the difference
 
+## How to run
+pull
+cd DNS-Change-Monitor
+chmod 755 DNS-Change-Monitor.sh
+./DNS-Change-Monitor.sh
+
 ## Notes
  List your URLs to watch in file "sites.txt" in the same directory as the script. 
  
